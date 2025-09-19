@@ -1,0 +1,50 @@
+# Environment variables
+.env
+.env.*
+.venv/
+env/
+venv/
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Build artifacts and distribution
+build/
+dist/
+*.egg-info/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Database files
+*.db
+*.sqlite3
+*.sqlite
+instance/
+
+# Logs
+*.log
+logs/
+
+# Testing and coverage reports
+.pytest_cache/
+.coverage
+htmlcov/
+.tox/
+
+# OS generated files
+.DS_Store
+Thumbs.db
